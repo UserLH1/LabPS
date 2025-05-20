@@ -1,0 +1,59 @@
+# Fișiere R temporare
+*.Rhistory
+*.RData
+*.Ruserdata
+*.Rproj.user/
+.Rproj.user/
+
+# Proiecte RStudio
+*.Rproj
+
+# Fișiere de log
+*.log
+
+# Cache-ul pachetelor
+.Rcache/
+.Rcheck/
+
+# Fișiere temporare
+*.tmp
+*.swp
+*.bak
+*.~ 
+
+# Foldere de date generate temporar
+data/*.csv
+data/*.tsv
+data/*.rds
+data/*.sav
+
+# Fișiere de output (grafice, rapoarte generate)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.html
+*.docx
+*.pptx
+
+# Notebooks generate
+*.nb.html
+
+# Renv (gestionare pachete R)
+renv/library/
+renv/staging/
+renv/python/
+
+# Dacă folosești packrat
+packrat/lib*
+packrat/src/
+packrat/packrat.lock
+packrat/.Rprofile
+
+# Jupyter notebooks (dacă folosești R în Jupyter)
+.ipynb_checkpoints
+
+# MacOS
+.DS_Store
+
