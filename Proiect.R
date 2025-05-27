@@ -17,6 +17,7 @@ data_hu=read_xlsx(file_path, sheet=2, col_names = FALSE)
 data_sw=read_xlsx(file_path, sheet=5, col_names = FALSE)
 
 data_ro
+names(data_ro)
  
 data_hu
 data_sw
